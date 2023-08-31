@@ -15,6 +15,11 @@ module.exports = {
             fontFamily: {
                 body: ["Bebas Neue"],
                 main: ["Ubuntu"],
+                all: ["Poppins"],
+            },
+            fontWeight: {
+                bold: "800",
+                regular: "400",
             },
         },
     },
