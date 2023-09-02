@@ -21,7 +21,7 @@ export default function About(){
         setLanguage(prevLanguage => prevLanguage === "english" ? "portuguese" : "english")
     }
     return (
-        <main className="flex gap-16 items-center justify-center p-40 flex-grow max-lg:flex-col-reverse SectionAbout">
+        <main className="flex gap-16 items-center justify-center p-40 flex-grow max-lg:flex-col-reverse SectionAbout m-8">
             <div className="text-2xl text-black flex flex-col w-96 flex-1 font-bold">
                 <h1 className="text-5xl border-b-4 w-96 mb-4 border-blue-400">{translate[language].heading}</h1>
                 <span className="text-2xl mb-4">{translate[language].content}</span>

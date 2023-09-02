@@ -11,7 +11,14 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+}
 
 .SectionAbout {
     background: #F0F0F5;
+}
+
+.BgSkill {
+    background: #0F1221;
 }
