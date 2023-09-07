@@ -23,7 +23,6 @@ export default function Dashboard() {
       <h1>Seus Dados:</h1>
       <ul>
         {data.map((item) => (
-           
           <li key={item._id} className='flex flex-col'><span>{item.name}</span><span>{item.email}</span></li>
         ))}
       </ul>

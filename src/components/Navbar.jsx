@@ -1,7 +1,7 @@
 import Link from "next/link"
 const Menu = [{
     content: "About",
-    root: "/about"
+    root: "/dashboard"
 },
 {
     content: "Stacks",
