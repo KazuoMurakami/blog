@@ -5,7 +5,7 @@ import axios from 'axios';
 const githubApi = axios.create({
   baseURL: 'https://api.github.com/',
   headers: {
-    Authorization: `Bearer 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`,
+    Authorization: `Bearer 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`,
   },
 });
 export default function Stack() {
